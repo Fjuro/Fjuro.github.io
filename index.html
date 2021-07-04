@@ -2,21 +2,29 @@
 <html lang="en">
   <head>
 	<style>
-	.center {
-	margin: auto;
-	width: 60%;
-	text-align: center;
-	padding: 10px;
-	border-radius: 20px;
-	}
-	.about {
-	width: 50%;
-	text-align: justify;
-	margin: auto;
-	}
-	.logo {
-	border-radius: 20px;
-	}
+    .container {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+  	.center {
+    	margin: auto;
+      width: 60%;
+  	  text-align: center;
+    	padding: 10px;
+    	border-radius: 20px;
+  	}
+  	.about {
+    	width: 50%;
+    	text-align: justify;
+    	margin: auto;
+  	}
+   	.logo {
+    	border-radius: 20px;
+  	}
 	</style>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -33,6 +41,7 @@
   <body>
 
     <!-- BODY -->
+<div class="container">
 <div class="center shadow-6">
   <img
     src="img/logo.jpg"
@@ -47,13 +56,14 @@
   </div>
     <!--- Social Media ---->
   <div style="padding: 20px;">
-    <a class="btn btn-primary" data-mdb-toggle="popover" data-mdb-placement="top" data-mdb-content="Fjuro#0179" style="background-color: #5865F2;" role="button"><i class="fab fa-discord fa-2x"></i></a>
-    <a class="btn btn-primary" style="background-color: #1d9bf0;" role="button" href="https://twitter.com/ItsFjuro" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
-    <a class="btn btn-primary" style="background-color: #171515;" role="button" href="https://github.com/Fjuro" target="_blank"><i class="fab fa-github fa-2x"></i></a>
-    <a class="btn btn-primary" style="background-color: #ff4500;" role="button" href="https://reddit.com/u/FjuroOfficial" target="_blank"><i class="fab fa-reddit fa-2x"></i></a>
-    <a class="btn btn-primary" style="background-color: #2c2e35;" role="button" href="https://steamcommunity.com/id/Fjuro" target="_blank"><i class="fab fa-steam fa-2x"></i></a>
-    <a class="btn btn-primary" style="background-color: #f5c400;" role="button" href="https://guilded.gg/Fjuro" target="_blank"><i class="fab fa-guilded fa-2x"></i></a>
+    <a class="btn btn-primary btn-floating btn-lg" data-mdb-toggle="popover" data-mdb-placement="top" data-mdb-content="Fjuro#0179" style="background-color: #5865F2;" role="button"><i class="fab fa-discord"></i></a>
+    <a class="btn btn-primary btn-floating btn-lg" style="background-color: #1d9bf0;" role="button" href="https://twitter.com/ItsFjuro" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a class="btn btn-primary btn-floating btn-lg" style="background-color: #171515;" role="button" href="https://github.com/Fjuro" target="_blank"><i class="fab fa-github"></i></a>
+    <a class="btn btn-primary btn-floating btn-lg" style="background-color: #ff4500;" role="button" href="https://reddit.com/u/FjuroOfficial" target="_blank"><i class="fab fa-reddit"></i></a>
+    <a class="btn btn-primary btn-floating btn-lg" style="background-color: #2c2e35;" role="button" href="https://steamcommunity.com/id/Fjuro" target="_blank"><i class="fab fa-steam"></i></a>
+    <a class="btn btn-primary btn-floating btn-lg" style="background-color: #f5c400;" role="button" href="https://guilded.gg/Fjuro" target="_blank"><i class="fab fa-guilded"></i></a>
   </div>
+</div>
 </div>
     <!-- BODY END-->
 
